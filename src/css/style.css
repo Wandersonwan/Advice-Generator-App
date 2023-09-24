@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: var(--background-color);
+    font-weight: 800;
+    font-family: 'manrope', sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.advice{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--advice-card-color);
+    align-items: center;
+    width: 445px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.advice .advice-id{
+    color: var(--advice-dice-color);
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.advice .advice-description{
+    text-align: center;
+    padding: 23px;
+    font-size: 23px;
+    color: var(--text-color);
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imagem .img{
+    width: 80%;
+}
+.advice .advice-update{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform: translateY(50%);
+    background-color: var(--advice-dice-color);
+    border: none;
+}
+.advice .advice-update:hover{
+    cursor: pointer;
+    color: #53FFAB;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
+
